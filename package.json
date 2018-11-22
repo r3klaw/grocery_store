@@ -1,7 +1,7 @@
 {
-  "name": "wandering-sun",
+  "name": "grocery_store",
   "version": "1.0.0",
-  "description": "My app description",
+  "description": "local grocery app",
   "scripts": {
     "deploy": "npm test && git push heroku master",
     "migrate": "knex migrate:rollback && knex migrate:latest && knex seed:run",
@@ -10,8 +10,8 @@
     "test:client": "karma start --single-run",
     "test:server": "mocha --recursive"
   },
-  "author": "Christopher Kang",
-  "license": "ISC",
+  "author": "r3klaw",
+  "license": "mit",
   "dependencies": {
     "@google/maps": "^0.4.5",
     "angular-local-storage": "^0.7.1",
